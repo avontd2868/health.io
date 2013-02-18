@@ -1,0 +1,11 @@
+{
+  "name": "health.io",
+  "author": "roy hasson",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "restify": "2.2.1",
+    "socket.io": "~0.9.13"
+  },
+  "engine": "node 0.8"
+}
