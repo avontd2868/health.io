@@ -1,0 +1,11 @@
+<html><head>
+<link rel='stylesheet' href='css/styles.css'>
+<script src="/socket.io/socket.io.js"></script>
+</head><body>
+<script>
+  var socket = io.connect('http://localhost');
+  socket.on('news', function (data) {
+    console.log(data);
+  });
+</script>
+<h1>hello</h1></body></html>
